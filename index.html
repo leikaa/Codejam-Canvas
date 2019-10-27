@@ -5,11 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <script type="text/javascript" src="/assets/js/script.js"></script>
     <title>Codejam-Canvas</title>
 </head>
 <body>
-
+    <div class="wrapper">
+        <div class="top-menu">
+            <div class="top-menu__list-icon">
+                <span class="top-menu__list-icon-burger"></span>
+            </div>
+            <div class="top-menu__title">CodeJam - Pallete</div>
+            <div class="top-menu__properties">...</div>
+        </div>
+        <div class="work-area">
+            <div class="work-area-left-panel-block">
+                <ul class="work-area-left-panel-block-tools">
+                    <li class="work-area-left-panel-block-tools__item">Paint bucket</li>
+                    <li class="work-area-left-panel-block-tools__item">Choose color</li>
+                    <li class="work-area-left-panel-block-tools__item">Move</li>
+                    <li class="work-area-left-panel-block-tools__item">Transform</li>
+                </ul>
+                <ul class="work-area-left-panel-block-colors">
+                    <li class="work-area-left-panel-block-colors__item">Current color</li>
+                    <li class="work-area-left-panel-block-colors__item">Prev color</li>
+                    <li class="work-area-left-panel-block-colors__item">red</li>
+                    <li class="work-area-left-panel-block-colors__item">blue</li>
+                </ul>
+            </div>
+            <div class="work-area-canvas-block">
+                <canvas class="work-area-canvas-block__canvas" width="512" height="512"></canvas>
+            </div>
+            <div class="work-area-right-panel-block">
+                <ul class="work-area-right-panel-block-sizes">
+                    <li data-url="./data/4x4.json" data-type="json" data-color="hex" class="work-area-right-panel-block-sizes__item">4x4</li>
+                    <li data-url="./data/32x32.json" data-type="json" data-color="rgba" class="work-area-right-panel-block-sizes__item">32x32</li>
+                    <li data-url="./data/image.png" data-type="image" class="work-area-right-panel-block-sizes__item">256x256</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
