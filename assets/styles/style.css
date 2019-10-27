@@ -128,19 +128,19 @@ body {
 }
 
 .work-area-left-panel-block-tools__item:nth-child(1)::before {
-    background: url("/assets/images/tools_bucket.png") no-repeat;
+    background: url("../images/tools_bucket.png") no-repeat;
 }
 
 .work-area-left-panel-block-tools__item:nth-child(2)::before {
-    background: url("/assets/images/tools_pick.png") no-repeat;
+    background: url("../images/tools_pick.png") no-repeat;
 }
 
 .work-area-left-panel-block-tools__item:nth-child(3)::before {
-    background: url("/assets/images/tools_move.png") no-repeat;
+    background: url("../images/tools_move.png") no-repeat;
 }
 
 .work-area-left-panel-block-tools__item:nth-child(4)::before {
-    background: url("/assets/images/tools_transform.png") no-repeat;
+    background: url("../images/tools_transform.png") no-repeat;
 }
 
 .work-area-left-panel-block-colors {
