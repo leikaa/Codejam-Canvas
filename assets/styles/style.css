@@ -195,6 +195,7 @@ body {
     width: 512px;
     height: 512px;
     align-self: center;
+    background-color: #d3d3d3;
 }
 
 .work-area-canvas-block__canvas {
